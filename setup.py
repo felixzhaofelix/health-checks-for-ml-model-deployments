@@ -21,7 +21,7 @@ setup(name=__name__,
       url="https://github.com/schmidtbri/health-checks-for-ml-model-deployments",
       license="BSD",
       packages=find_packages(exclude=["tests", "*tests", "tests*"]),
-      install_requires=["ml_base>=0.1.0", "pandas==1.5.2", "lightgbm==3.3.3", "joblib==1.2.0"],
+      install_requires=["ml_base>=0.1.0", "pandas==1.5.2", "lightgbm>=3.3.3", "joblib==1.2.0"],
       extras_require={
             "training": ["kaggle", "jupyter", "pandas_profiling", "deepchecks", "flaml"],
       },
