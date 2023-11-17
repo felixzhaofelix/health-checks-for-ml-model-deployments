@@ -61,7 +61,7 @@ defusedxml==0.7.1
     # via nbconvert
 entrypoints==0.4
     # via jupyter-client
-fastapi==0.66.0
+fastapi==0.88.0
     # via rest-model-service
 fastjsonschema==2.16.2
     # via nbformat
